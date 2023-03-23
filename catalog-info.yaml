@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world2
+  annotations:
+    github.com/project-slug: nanjingfm/hello-world2
+spec:
+  type: other
+  lifecycle: unknown
+  owner: fuming
