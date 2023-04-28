@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  title: 测试组件
+  description: test repo created by janus template
+  annotations:
+    # github plugin
+    github.com/project-slug: nanjingfm/hello-world2
+
+spec:
+  type: service
+  system: 
+  lifecycle: production
+  owner: group:guests
