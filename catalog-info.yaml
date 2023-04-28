@@ -10,6 +10,5 @@ metadata:
 
 spec:
   type: service
-  system: 
   lifecycle: production
   owner: group:guests
